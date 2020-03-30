@@ -59,6 +59,20 @@ namespace TeamCityTests
                 return true;
         }
 
+        [Fact]
+        public void Test3()
+        {
+            TeamCity.TeamCity TeamCity = new TeamCity.TeamCity();
 
+            var rand = new Random();
+
+            //TeamCity.Size = rand.Next(-10, 10);
+
+            TeamCity.Size = -1;
+
+            var result = IsPrime(TeamCity.Size);
+
+            Assert.True(result, $"{TeamCity.Size} should be prime");
+        }
     }
 }
