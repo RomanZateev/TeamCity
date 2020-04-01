@@ -5,7 +5,7 @@ namespace TeamCityTests
 {
     public class UnitTest1
     {
-        //проверка на неотрицательность
+        //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         [Fact]
         public void Test1()
         {
@@ -30,7 +30,7 @@ namespace TeamCityTests
                 return false;
         }
 
-        //проверка знаменателя на ненулевое значение
+        //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         [Fact]
         public void Test2()
         {
@@ -68,7 +68,7 @@ namespace TeamCityTests
 
             //TeamCity.Size = rand.Next(-10, 10);
 
-            TeamCity.Size = -10;
+            TeamCity.Size = 10;
 
             var result = IsPrime(TeamCity.Size);
 
